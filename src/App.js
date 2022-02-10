@@ -9,7 +9,7 @@ const App = () => {
 
 	return (
 		<div className='App'>
-			<h1>Web Development Quiz</h1>
+			<h1>Web Development Quiz </h1>
 			{quizC.quizState === 'menu' && <Menu />}
 			{quizC.quizState === 'quiz' && <Quiz />}
 			{quizC.quizState === 'score' && <Score />}
